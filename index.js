@@ -1,5 +1,5 @@
 let session, SNlM0e;
-
+import fetch from "node-fetch";
 export const init = async (sessionID) => {
     session = {
         baseURL: "https://bard.google.com",
